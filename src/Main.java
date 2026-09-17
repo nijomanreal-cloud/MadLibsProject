@@ -20,14 +20,90 @@
  * See https://www.thewordfinder.com/wordlibs/story/41/ for an example.
  ********************************/
 import java.util.Scanner;
-public class Main {
+public class Main01 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		// YOUR CODE GOES HERE!!!!
+		System.out.println("Name: Nico");
+		System.out.println("Class: ICS3U");
+		System.out.println("Date: Friday Sept 18");
+		System.out.println("Project Name: Madlibs");
 		
+		System.out.println("Give a plural noun: ");
+		String PLURALNOUN1 = in.nextLine();
 		
+		System.out.println("Give an adjective: ");
+		String ADJECTIVE1 = in.nextLine();
 		
+		System.out.println("Give a verb ending in ing: ");
+		String VERB_ING_1 = in.nextLine();
+		
+		System.out.println("Give a noun: ");
+		String NOUN1 = in.nextLine();
+		
+		System.out.println("Give an adverb: ");
+		String ADVERB1 = in.nextLine();
+		
+		System.out.println("Give a body-part: ");
+		String BODY_PART1 = in.nextLine();
+		
+		System.out.println("Give a plural noun: ");
+		String PLURALNOUN2 = in.nextLine();
+		
+		System.out.println("Give a plural noun: ");
+		String PLURALNOUN3 = in.nextLine();
+		
+		System.out.println("Give an adverb: ");
+		String ADVERB2 = in.nextLine();
+		
+		System.out.println("Give an adjective: ");
+		String ADJECTIVE2 = in.nextLine();
+		
+		System.out.println("Give a noun: ");
+		String NOUN2 = in.nextLine();
+ 
+		System.out.println("Give a number: ");
+		int NUMBER1 = in.nextInt();
+		in.nextLine();
+		
+		System.out.println("Give a plural noun: ");
+		String PLURALNOUN4 = in.nextLine();
+		
+		System.out.println("Give a noun: ");
+		String NOUN3 = in.nextLine();
+		
+		System.out.println("Give a verb ending in ing: ");
+		String VERB_ING_2 = in.nextLine();
+		
+		System.out.println("Give a noun: ");
+		String NOUN4 = in.nextLine();
+		
+		System.out.println("Give a noun: ");
+		String NOUN5 = in.nextLine();
+		
+		System.out.println("Give a number: ");
+		int NUMBER2 = in.nextInt();
+		in.nextLine();
+		
+		System.out.println("Give an adjective: ");
+		String ADJECTIVE3 = in.nextLine();
+		
+		System.out.println("Give a plural noun: ");
+		String PLURALNOUN5 = in.nextLine();
+		
+		System.out.println("Give a body part: ");
+		String BODYPART2 = in.nextLine();
+		
+		System.out.println("A recent survey informs us that one out of every "+ PLURALNOUN1 + " owns a/an " + ADJECTIVE1 + " phone.");
+		System.out.println("Fortunately, " + VERB_ING_1 + " over a mobile " + NOUN1 + " in recent years has improved " + ADVERB1 + ".");
+		System.out.println("Today, " + BODY_PART1 + "-held " + PLURALNOUN2 + " are all the rage.");
+		System.out.println("In restaurants, you find many " + PLURALNOUN3 +  " talking " + ADVERB2 + " into their " + ADJECTIVE2 + " phones as they eat their " + NOUN2 + ".");
+		System.out.println( NUMBER1 + " percent of American " + PLURALNOUN4 + " place their " + NOUN3 + " calls from their cars as they are " + VERB_ING_2 + " to and from their home, office, or " + NOUN4 + ".");
+		System.out.println("Walking and talking are now the “in” " + NOUN5 + " to do.");
+		System.out.println("Over " + NUMBER2 + " percent of Americans walk our " + ADJECTIVE3 + " streets with a handheld " + PLURALNOUN5 + " pressed against their " + BODYPART2 + ".");
+		
+	
 		
 		
 		
